@@ -1,0 +1,22 @@
+---
+osx_mas_formulas: [mas]
+
+# A list of dictionaries with the application id and name.
+# Only the id is used; the name is used for reference.
+# e.g.
+# osx_mas_applications:
+#   - { id: "1333542190", name: 1Password }
+osx_mas_applications: []
+
+# List of dictionaries with default values to replace with the attributes described in the docs.
+# https://docs.ansible.com/ansible/2.9/modules/osx_defaults_module.html#osx-defaults-module
+# e.g.
+# osx_defaults:
+# - domain: com.apple.LaunchServices
+#   key: LSQuarantine
+#   type: bool
+#   value: false
+#   meta: Disables open application confirmation dialog
+osx_defaults: []
+# Same as above, but with items with broken idempotency
+osx_dict_defaults: []

@@ -1,0 +1,15 @@
+galaxy_info:
+  author: Diego Romero
+  description: Updates macOS defaults and installs App Store apps
+  license: BSD-3-Clause
+  min_ansible_version: 2.4
+  platforms:
+    - name: macOS
+      versions:
+        - High-Sierra
+        - Big-Sur
+  galaxy_tags:
+    - osx
+    - mac
+    - macos
+    - macosx
